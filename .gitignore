@@ -12,8 +12,8 @@
 core
 
 # Ignore contribution modules and themes
-modules/contrib
-themes/contrib
+web/modules/contrib
+web/themes/contrib
 
 # Ignore dependencies that are managed with Composer.
 # Generally you should only ignore the root vendor directory. It's important
@@ -22,12 +22,12 @@ themes/contrib
 /vendor/
 
 # Ignore configuration files that may contain sensitive information.
-sites/*/settings*.php
-sites/*/services*.yml
+web/sites/*/settings*.php
+web/sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/private
+web/sites/*/files
+web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
 sites/simpletest
@@ -39,8 +39,8 @@ sites/simpletest
 # */settings*.php
 
 # Ignore paths that contain user-generated content.
-# */files
-# */private
+*/files
+*/private
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
